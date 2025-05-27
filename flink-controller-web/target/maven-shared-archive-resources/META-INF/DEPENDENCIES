@@ -1,0 +1,461 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+flink-controller-web
+
+
+From: 'an unknown organization'
+
+  - JCIP Annotations under Apache License (http://stephenc.github.com/jcip-annotations) com.github.stephenc.jcip:jcip-annotations:jar:1.0-1
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - FindBugs-jsr305 (http://findbugs.sourceforge.net/) com.google.code.findbugs:jsr305:jar:1.3.9
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - SCRAM - client (https://gitlab.com/ongresinc/scram/client) com.ongres.scram:client:jar:2.1
+    License: The 2-Clause BSD License  (https://opensource.org/licenses/BSD-2-Clause)
+
+  - SCRAM - common (https://gitlab.com/ongresinc/scram/common) com.ongres.scram:common:jar:2.1
+    License: The 2-Clause BSD License  (https://opensource.org/licenses/BSD-2-Clause)
+
+  - saslprep (https://gitlab.com/ongresinc/stringprep/saslprep) com.ongres.stringprep:saslprep:jar:1.1
+    License: The 2-Clause BSD License  (https://opensource.org/licenses/BSD-2-Clause)
+
+  - stringprep (https://gitlab.com/ongresinc/stringprep/stringprep) com.ongres.stringprep:stringprep:jar:1.1
+    License: The 2-Clause BSD License  (https://opensource.org/licenses/BSD-2-Clause)
+
+  - micrometer-commons (https://github.com/micrometer-metrics/micrometer) io.micrometer:micrometer-commons:jar:1.14.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - micrometer-core (https://github.com/micrometer-metrics/micrometer) io.micrometer:micrometer-core:jar:1.14.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - micrometer-jakarta9 (https://github.com/micrometer-metrics/micrometer) io.micrometer:micrometer-jakarta9:jar:1.14.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - micrometer-observation (https://github.com/micrometer-metrics/micrometer) io.micrometer:micrometer-observation:jar:1.14.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - Reactive Relational Database Connectivity - Connection Pooling (https://github.com/r2dbc/r2dbc-pool) io.r2dbc:r2dbc-pool:jar:1.0.2.RELEASE
+    License: Apache License 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - Reactive Relational Database Connectivity - Postgresql (https://github.com/r2dbc/r2dbc-postgresql) io.r2dbc:r2dbc-postgresql:jar:0.8.13.RELEASE
+    License: Apache License 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - Reactive Relational Database Connectivity - SPI (https://r2dbc.io/r2dbc-spi) io.r2dbc:r2dbc-spi:jar:1.0.0.RELEASE
+    License: Apache License 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - Apache Kafka (https://kafka.apache.org) org.apache.kafka:kafka-clients:jar:3.8.1
+    License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - Apache Kafka (https://kafka.apache.org) org.apache.kafka:kafka-streams:jar:3.8.1
+    License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - tomcat-embed-core (https://tomcat.apache.org/) org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.36
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - tomcat-embed-el (https://tomcat.apache.org/) org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.36
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - tomcat-embed-websocket (https://tomcat.apache.org/) org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.36
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - Checker Qual (https://checkerframework.org/) org.checkerframework:checker-qual:jar:3.48.3
+    License: The MIT License  (http://opensource.org/licenses/MIT)
+
+  - HdrHistogram (http://hdrhistogram.github.io/HdrHistogram/) org.hdrhistogram:HdrHistogram:bundle:2.2.2
+    License: Public Domain, per Creative Commons CC0  (http://creativecommons.org/publicdomain/zero/1.0/)
+    License: BSD-2-Clause  (https://opensource.org/licenses/BSD-2-Clause)
+
+  - LatencyUtils (http://latencyutils.github.io/LatencyUtils/) org.latencyutils:LatencyUtils:jar:2.0.3
+    License: Public Domain, per Creative Commons CC0  (http://creativecommons.org/publicdomain/zero/1.0/)
+
+  - LZ4 and xxHash (https://github.com/lz4/lz4-java) org.lz4:lz4-java:jar:1.8.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - reactive-streams (http://www.reactive-streams.org/) org.reactivestreams:reactive-streams:jar:1.0.4
+    License: MIT-0  (https://spdx.org/licenses/MIT-0.html)
+
+  - SnakeYAML (https://bitbucket.org/snakeyaml/snakeyaml) org.yaml:snakeyaml:bundle:2.3
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+From: 'Chemouni Uriel' (https://urielch.github.io/)
+
+  - ASM based accessors helper used by json-smart (https://urielch.github.io/) net.minidev:accessors-smart:bundle:2.5.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - JSON Small and Fast Parser (https://urielch.github.io/) net.minidev:json-smart:bundle:2.5.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+From: 'com.github.luben'
+
+  - zstd-jni (https://github.com/luben/zstd-jni) com.github.luben:zstd-jni:jar:1.5.6-4
+    License: BSD 2-Clause License  (https://opensource.org/licenses/BSD-2-Clause)
+
+
+From: 'Connect2id Ltd.' (https://connect2id.com)
+
+  - Nimbus Content Type (https://bitbucket.org/connect2id/nimbus-content-type) com.nimbusds:content-type:jar:2.2
+    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - Nimbus JOSE+JWT (https://bitbucket.org/connect2id/nimbus-jose-jwt) com.nimbusds:nimbus-jose-jwt:jar:9.37.3
+    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - OAuth 2.0 SDK with OpenID Connect extensions (https://bitbucket.org/connect2id/oauth-2.0-sdk-with-openid-connect-extensions) com.nimbusds:oauth2-oidc-sdk:jar:9.43.6
+    License: Apache License, version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.html)
+
+
+From: 'Connect2id Ltd.' (https://connect2id.com/)
+
+  - Nimbus LangTag (https://bitbucket.org/connect2id/nimbus-language-tags) com.nimbusds:lang-tag:jar:1.7
+    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+From: 'Eclipse Foundation' (https://www.eclipse.org)
+
+  - Jakarta Annotations API (https://projects.eclipse.org/projects/ee4j.ca) jakarta.annotation:jakarta.annotation-api:jar:2.1.1
+    License: EPL 2.0  (http://www.eclipse.org/legal/epl-2.0)
+    License: GPL2 w/ CPE  (https://www.gnu.org/software/classpath/license.html)
+
+  - Jakarta Bean Validation API (https://beanvalidation.org) jakarta.validation:jakarta.validation-api:jar:3.0.2
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+From: 'Facebook' (https://www.facebook.com)
+
+  - RocksDB JNI (https://rocksdb.org) org.rocksdb:rocksdbjni:jar:7.9.2
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+    License: GNU General Public License, version 2  (http://www.gnu.org/licenses/gpl-2.0.html)
+
+
+From: 'FasterXML' (http://fasterxml.com/)
+
+  - Jackson-annotations (https://github.com/FasterXML/jackson) com.fasterxml.jackson.core:jackson-annotations:jar:2.18.2
+    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - Jackson-core (https://github.com/FasterXML/jackson-core) com.fasterxml.jackson.core:jackson-core:jar:2.18.2
+    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - jackson-databind (https://github.com/FasterXML/jackson) com.fasterxml.jackson.core:jackson-databind:jar:2.18.2
+    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - Jackson datatype: jdk8 (https://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jdk8) com.fasterxml.jackson.datatype:jackson-datatype-jdk8:bundle:2.18.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - Jackson datatype: JSR310 (https://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jsr310) com.fasterxml.jackson.datatype:jackson-datatype-jsr310:bundle:2.18.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - Jackson-module-parameter-names (https://github.com/FasterXML/jackson-modules-java8/jackson-module-parameter-names) com.fasterxml.jackson.module:jackson-module-parameter-names:bundle:2.18.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+From: 'jsonwebtoken.io' (https://github.com/jwtk/jjwt)
+
+  - JJWT :: Legacy Transitive Dependency Jar (https://github.com/jwtk/jjwt/jjwt) io.jsonwebtoken:jjwt:jar:0.12.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - JJWT :: API (https://github.com/jwtk/jjwt/jjwt-api) io.jsonwebtoken:jjwt-api:jar:0.12.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - JJWT :: Impl (https://github.com/jwtk/jjwt/jjwt-impl) io.jsonwebtoken:jjwt-impl:jar:0.12.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - JJWT :: Extensions :: Jackson (https://github.com/jwtk/jjwt/jjwt-jackson) io.jsonwebtoken:jjwt-jackson:jar:0.12.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+
+From: 'lettuce.io' (https://lettuce.io)
+
+  - Lettuce (http://github.com/lettuce-io/lettuce-core) io.lettuce:lettuce-core:jar:6.4.2.RELEASE
+    License: MIT  (https://github.com/redis/lettuce/blob/main/LICENSE)
+
+
+From: 'OW2' (http://www.ow2.org/)
+
+  - asm (http://asm.ow2.io/) org.ow2.asm:asm:jar:9.7.1
+    License: BSD-3-Clause  (https://asm.ow2.io/license.html)
+
+
+From: 'Pivotal Software, Inc.' (https://spring.io)
+
+  - spring-security-config (https://spring.io/projects/spring-security) org.springframework.security:spring-security-config:jar:6.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - spring-security-core (https://spring.io/projects/spring-security) org.springframework.security:spring-security-core:jar:6.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - spring-security-crypto (https://spring.io/projects/spring-security) org.springframework.security:spring-security-crypto:jar:6.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - spring-security-oauth2-client (https://spring.io/projects/spring-security) org.springframework.security:spring-security-oauth2-client:jar:6.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - spring-security-oauth2-core (https://spring.io/projects/spring-security) org.springframework.security:spring-security-oauth2-core:jar:6.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - spring-security-oauth2-jose (https://spring.io/projects/spring-security) org.springframework.security:spring-security-oauth2-jose:jar:6.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - spring-security-web (https://spring.io/projects/spring-security) org.springframework.security:spring-security-web:jar:6.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+
+From: 'Pivotal Software, Inc.' (https://www.spring.io)
+
+  - Spring Data Core (https://spring.io/projects/spring-data) org.springframework.data:spring-data-commons:jar:3.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Spring Data KeyValue (https://www.spring.io/spring-data/spring-data-keyvalue) org.springframework.data:spring-data-keyvalue:jar:3.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Spring Data R2DBC (https://projects.spring.io/spring-data-r2dbc) org.springframework.data:spring-data-r2dbc:jar:3.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Spring Data Redis (https://spring.io/projects/spring-data-redis) org.springframework.data:spring-data-redis:jar:3.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Spring Data Relational (https://projects.spring.io/spring-data-jdbc/spring-data-relational) org.springframework.data:spring-data-relational:jar:3.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+
+From: 'PostgreSQL Global Development Group' (https://jdbc.postgresql.org/)
+
+  - PostgreSQL JDBC Driver (https://jdbc.postgresql.org) org.postgresql:postgresql:jar:42.7.5
+    License: BSD-2-Clause  (https://jdbc.postgresql.org/about/license.html)
+
+
+From: 'QOS.ch' (http://www.qos.ch)
+
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.36
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+
+From: 'reactor' (https://github.com/reactor)
+
+  - Non-Blocking Reactive Foundation for the JVM (https://github.com/reactor/reactor-core) io.projectreactor:reactor-core:jar:3.7.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - Reactor Pool (https://github.com/reactor/reactor-pool) io.projectreactor.addons:reactor-pool:jar:1.1.2
+    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - Reactor Netty with all modules (https://github.com/reactor/reactor-netty) io.projectreactor.netty:reactor-netty:jar:1.2.3
+    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - Core functionality for the Reactor Netty library (https://github.com/reactor/reactor-netty) io.projectreactor.netty:reactor-netty-core:jar:1.2.3
+    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - HTTP functionality for the Reactor Netty library (https://github.com/reactor/reactor-netty) io.projectreactor.netty:reactor-netty-http:jar:1.2.3
+    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - QUIC functionality for the Reactor Netty library (https://github.com/reactor/reactor-netty) io.projectreactor.netty.incubator:reactor-netty-incubator-quic:jar:0.2.3
+    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+From: 'Spring IO' (https://spring.io)
+
+  - Spring Retry (https://github.com/spring-projects/spring-retry) org.springframework.retry:spring-retry:jar:2.0.11
+    License: Apache 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+From: 'Spring IO' (https://spring.io/projects/spring-framework)
+
+  - Spring AOP (https://github.com/spring-projects/spring-framework) org.springframework:spring-aop:jar:6.2.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Spring Beans (https://github.com/spring-projects/spring-framework) org.springframework:spring-beans:jar:6.2.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Spring Context (https://github.com/spring-projects/spring-framework) org.springframework:spring-context:jar:6.2.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Spring Context Support (https://github.com/spring-projects/spring-framework) org.springframework:spring-context-support:jar:6.2.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Spring Core (https://github.com/spring-projects/spring-framework) org.springframework:spring-core:jar:6.2.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Spring Expression Language (SpEL) (https://github.com/spring-projects/spring-framework) org.springframework:spring-expression:jar:6.2.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Spring Commons Logging Bridge (https://github.com/spring-projects/spring-framework) org.springframework:spring-jcl:jar:6.2.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Spring JDBC (https://github.com/spring-projects/spring-framework) org.springframework:spring-jdbc:jar:6.2.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Spring Messaging (https://github.com/spring-projects/spring-framework) org.springframework:spring-messaging:jar:6.2.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Spring Object/XML Marshalling (https://github.com/spring-projects/spring-framework) org.springframework:spring-oxm:jar:6.2.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Spring R2DBC (https://github.com/spring-projects/spring-framework) org.springframework:spring-r2dbc:jar:6.2.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Spring Transaction (https://github.com/spring-projects/spring-framework) org.springframework:spring-tx:jar:6.2.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Spring Web (https://github.com/spring-projects/spring-framework) org.springframework:spring-web:jar:6.2.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Spring WebFlux (https://github.com/spring-projects/spring-framework) org.springframework:spring-webflux:jar:6.2.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Spring Web MVC (https://github.com/spring-projects/spring-framework) org.springframework:spring-webmvc:jar:6.2.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Spring WebSocket (https://github.com/spring-projects/spring-framework) org.springframework:spring-websocket:jar:6.2.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+
+From: 'Spring IO' (https://spring.io/projects/spring-kafka)
+
+  - Spring Kafka Support (https://github.com/spring-projects/spring-kafka) org.springframework.kafka:spring-kafka:jar:3.3.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+From: 'The Apache Software Foundation' (https://www.apache.org/)
+
+  - flink-controller-api (https://flink.apache.org/flink-controller/flink-controller-api) org.apache.flink:flink-controller-api:jar:2.1-SNAPSHOT
+    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - flink-controller-service (https://flink.apache.org/flink-controller/flink-controller-service) org.apache.flink:flink-controller-service:jar:2.1-SNAPSHOT
+    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - flink-shaded-force-shading (http://flink.apache.org/flink-shaded-force-shading) org.apache.flink:flink-shaded-force-shading:jar:20.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - Apache Log4j JUL Adapter (https://logging.apache.org/log4j/2.x/log4j/log4j-jul/) org.apache.logging.log4j:log4j-jul:jar:2.24.3
+    License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+From: 'The Netty Project' (https://netty.io/)
+
+  - Netty/Buffer (https://netty.io/netty-buffer/) io.netty:netty-buffer:jar:4.1.118.Final
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Netty/Codec (https://netty.io/netty-codec/) io.netty:netty-codec:jar:4.1.118.Final
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Netty/Codec/DNS (https://netty.io/netty-codec-dns/) io.netty:netty-codec-dns:jar:4.1.118.Final
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Netty/Codec/HTTP (https://netty.io/netty-codec-http/) io.netty:netty-codec-http:jar:4.1.118.Final
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Netty/Codec/HTTP2 (https://netty.io/netty-codec-http2/) io.netty:netty-codec-http2:jar:4.1.118.Final
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Netty/Codec/Socks (https://netty.io/netty-codec-socks/) io.netty:netty-codec-socks:jar:4.1.118.Final
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Netty/Common (https://netty.io/netty-common/) io.netty:netty-common:jar:4.1.118.Final
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Netty/Handler (https://netty.io/netty-handler/) io.netty:netty-handler:jar:4.1.118.Final
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Netty/Handler/Proxy (https://netty.io/netty-handler-proxy/) io.netty:netty-handler-proxy:jar:4.1.118.Final
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Netty/Resolver (https://netty.io/netty-resolver/) io.netty:netty-resolver:jar:4.1.118.Final
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Netty/Resolver/DNS (https://netty.io/netty-resolver-dns/) io.netty:netty-resolver-dns:jar:4.1.118.Final
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Netty/Resolver/DNS/Classes/MacOS (https://netty.io/netty-resolver-dns-classes-macos/) io.netty:netty-resolver-dns-classes-macos:jar:4.1.118.Final
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Netty/Resolver/DNS/Native/MacOS (https://netty.io/netty-resolver-dns-native-macos/) io.netty:netty-resolver-dns-native-macos:jar:4.1.118.Final
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Netty/Transport (https://netty.io/netty-transport/) io.netty:netty-transport:jar:4.1.118.Final
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Netty/Transport/Classes/Epoll (https://netty.io/netty-transport-classes-epoll/) io.netty:netty-transport-classes-epoll:jar:4.1.118.Final
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Netty/Transport/Native/Epoll (https://netty.io/netty-transport-native-epoll/) io.netty:netty-transport-native-epoll:jar:4.1.118.Final
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Netty/Transport/Native/Unix/Common (https://netty.io/netty-transport-native-unix-common/) io.netty:netty-transport-native-unix-common:jar:4.1.118.Final
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Netty/Incubator/Codec/Classes/Quic (https://netty.io/netty-incubator-codec-classes-quic/) io.netty.incubator:netty-incubator-codec-classes-quic:jar:0.0.70.Final
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - Netty/Incubator/Codec/Native/Quic (https://netty.io/netty-incubator-codec-native-quic/) io.netty.incubator:netty-incubator-codec-native-quic:jar:0.0.70.Final
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+
+From: 'VMware, Inc.' (https://spring.io)
+
+  - spring-boot (https://spring.io/projects/spring-boot) org.springframework.boot:spring-boot:jar:3.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - spring-boot-actuator (https://spring.io/projects/spring-boot) org.springframework.boot:spring-boot-actuator:jar:3.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - spring-boot-actuator-autoconfigure (https://spring.io/projects/spring-boot) org.springframework.boot:spring-boot-actuator-autoconfigure:jar:3.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - spring-boot-autoconfigure (https://spring.io/projects/spring-boot) org.springframework.boot:spring-boot-autoconfigure:jar:3.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - spring-boot-docker-compose (https://spring.io/projects/spring-boot) org.springframework.boot:spring-boot-docker-compose:jar:3.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - spring-boot-starter (https://spring.io/projects/spring-boot) org.springframework.boot:spring-boot-starter:jar:3.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - spring-boot-starter-actuator (https://spring.io/projects/spring-boot) org.springframework.boot:spring-boot-starter-actuator:jar:3.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - spring-boot-starter-data-r2dbc (https://spring.io/projects/spring-boot) org.springframework.boot:spring-boot-starter-data-r2dbc:jar:3.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - spring-boot-starter-data-redis (https://spring.io/projects/spring-boot) org.springframework.boot:spring-boot-starter-data-redis:jar:3.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - spring-boot-starter-json (https://spring.io/projects/spring-boot) org.springframework.boot:spring-boot-starter-json:jar:3.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - spring-boot-starter-log4j2 (https://spring.io/projects/spring-boot) org.springframework.boot:spring-boot-starter-log4j2:jar:3.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - spring-boot-starter-oauth2-client (https://spring.io/projects/spring-boot) org.springframework.boot:spring-boot-starter-oauth2-client:jar:3.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - spring-boot-starter-reactor-netty (https://spring.io/projects/spring-boot) org.springframework.boot:spring-boot-starter-reactor-netty:jar:3.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - spring-boot-starter-security (https://spring.io/projects/spring-boot) org.springframework.boot:spring-boot-starter-security:jar:3.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - spring-boot-starter-tomcat (https://spring.io/projects/spring-boot) org.springframework.boot:spring-boot-starter-tomcat:jar:3.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - spring-boot-starter-web (https://spring.io/projects/spring-boot) org.springframework.boot:spring-boot-starter-web:jar:3.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - spring-boot-starter-webflux (https://spring.io/projects/spring-boot) org.springframework.boot:spring-boot-starter-webflux:jar:3.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - spring-boot-starter-websocket (https://spring.io/projects/spring-boot) org.springframework.boot:spring-boot-starter-websocket:jar:3.4.3
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+
+From: 'xerial.org' (https://github.com/xerial/snappy-java)
+
+  - snappy-java (https://github.com/xerial/snappy-java) org.xerial.snappy:snappy-java:bundle:1.1.10.7
+    License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.html)
+
+
+
+
+

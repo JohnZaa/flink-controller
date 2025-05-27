@@ -1,0 +1,43 @@
+spring:
+  docker:
+    compose:
+      enabled: false   # ???? Docker Compose ??
+      file: compose.yaml
+  application:
+    name: flink-controller-web
+  graphql:
+    path: /graphql
+    graphiql:
+      enabled: true
+  datasource:
+    url: jdbc:postgresql://localhost:55435/configdb
+    username: postgres
+    password: abc123
+  redis:
+    host: redis
+    port: 6379
+  r2dbc:
+    url: r2dbc:postgresql://localhost:55435/configdb
+    username: postgres
+    password: abc123
+#  sql:
+#    init:
+#      mode: always  # 如果你有 schema.sql 脚本
+#  security:
+#    oauth2:
+#      client:
+#        registration:
+#          google:
+#            client-id: client-id
+#            client-secret: your-client-secret
+#            scope: profile,email
+#        provider:
+#          google:
+#            authorization-uri: https://accounts.google.com/o/oauth2/auth
+#            token-uri: https://oauth2.googleapis.com/token
+#okta:
+#  oauth2:
+#    issuer: https://dev-123456.okta.com/oauth2/default
+#    client-id: client-id
+
+
