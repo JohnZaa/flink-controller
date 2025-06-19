@@ -41,3 +41,11 @@ spring:
 #    client-id: client-id
 
 
+logging:
+  level:
+    org.springframework.boot: DEBUG
+    logging.level.org.springframework.graphql: DEBUG
+    org.apache.flink: DEBUG
+
+flink:
+  address: localhost:8089
