@@ -17,17 +17,80 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
-<!--	<dependencies>-->
-<!--		&lt;!&ndash; 只放一些共享依赖，如 Lombok、JPA 注解、Validation &ndash;&gt;-->
+
+	<dependencies>
+		<!-- ===================================================
+                    Flink Dependencies
+        =================================================== -->
+
+		<dependency>
+			<groupId>org.apache.flink</groupId>
+			<artifactId>flink-runtime</artifactId>
+			<version>${project.version}</version>
+			<!--			<exclusions>-->
+			<!--				<exclusion>-->
+			<!--					<groupId>org.slf4j</groupId>-->
+			<!--					<artifactId>slf4j-log4j12</artifactId>-->
+			<!--				</exclusion>-->
+			<!--				<exclusion>-->
+			<!--					<groupId>org.slf4j</groupId>-->
+			<!--					<artifactId>slf4j-reload4j</artifactId>-->
+			<!--				</exclusion>-->
+			<!--				<exclusion>-->
+			<!--					<groupId>org.slf4j</groupId>-->
+			<!--					<artifactId>slf4j-simple</artifactId>-->
+			<!--				</exclusion>-->
+			<!--			</exclusions>-->
+		</dependency>
+		<dependency>
+			<groupId>org.apache.flink</groupId>
+			<artifactId>flink-clients</artifactId>
+			<version>${project.version}</version>
+			<!--			<exclusions>-->
+			<!--				<exclusion>-->
+			<!--					<groupId>org.slf4j</groupId>-->
+			<!--					<artifactId>slf4j-log4j12</artifactId>-->
+			<!--				</exclusion>-->
+			<!--				<exclusion>-->
+			<!--					<groupId>org.slf4j</groupId>-->
+			<!--					<artifactId>slf4j-reload4j</artifactId>-->
+			<!--				</exclusion>-->
+			<!--				<exclusion>-->
+			<!--					<groupId>org.slf4j</groupId>-->
+			<!--					<artifactId>slf4j-simple</artifactId>-->
+			<!--				</exclusion>-->
+			<!--			</exclusions>-->
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.apache.flink</groupId>
+			<artifactId>flink-streaming-java</artifactId>
+			<version>${flink.version}</version>
+		</dependency>
+
+		<!-- Flink Table Planner (用于 compilePlan) -->
+		<dependency>
+			<groupId>org.apache.flink</groupId>
+			<artifactId>flink-table-planner-loader</artifactId>
+			<version>${flink.version}</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- JDBC Catalog 支持 -->
+		<!-- https://mvnrepository.com/artifact/org.apache.flink/flink-connector-jdbc -->
+		<dependency>
+			<groupId>org.apache.flink</groupId>
+			<artifactId>flink-connector-jdbc</artifactId>
+			<version>3.3.0-1.20</version>
+			<!--			<scope>test</scope>-->
+		</dependency>
+
+<!--		&lt;!&ndash; REST 提交支持 &ndash;&gt;-->
 <!--		<dependency>-->
-<!--			<groupId>jakarta.validation</groupId>-->
-<!--			<artifactId>jakarta.validation-api</artifactId>-->
+<!--			<groupId>org.apache.flink</groupId>-->
+<!--			<artifactId>flink-runtime-web</artifactId>-->
+<!--			<version>${flink.version}</version>-->
 <!--		</dependency>-->
-<!--		<dependency>-->
-<!--			<groupId>org.projectlombok</groupId>-->
-<!--			<artifactId>lombok</artifactId>-->
-<!--			<version>1.18.30</version> &lt;!&ndash; ✅ 推荐写明版本 &ndash;&gt;-->
-<!--			<scope>provided</scope>-->
-<!--		</dependency>-->
-<!--	</dependencies>-->
+	</dependencies>
 </project>
