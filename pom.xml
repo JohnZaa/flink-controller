@@ -15,8 +15,8 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>flink-controller-web</module>
-		<module>flink-controller-service</module>
-		<module>flink-controller-api</module>
+		<module>flink-controller-dsl</module>
+		<module>flink-controller-core</module>
 	</modules>
 
 
